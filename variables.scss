@@ -1,0 +1,236 @@
+// Ionic Variables and Theming. For more info, please see:
+// http://ionicframework.com/docs/theming/
+
+/** Ionic CSS Variables **/
+:root {
+  /** primary **/
+  --ion-color-primary: #E45C82;
+  --ion-color-primary-rgb: 56, 128, 255;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #3171e0;
+  --ion-color-primary-tint: #4c8dff;
+
+  /** secondary **/
+  --ion-color-secondary: #0cd1e8;
+  --ion-color-secondary-rgb: 12, 209, 232;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #0bb8cc;
+  --ion-color-secondary-tint: #24d6ea;
+
+  /** tertiary **/
+  --ion-color-tertiary: #7044ff;
+  --ion-color-tertiary-rgb: 112, 68, 255;
+  --ion-color-tertiary-contrast: #ffffff;
+  --ion-color-tertiary-contrast-rgb: 255, 255, 255;
+  --ion-color-tertiary-shade: #633ce0;
+  --ion-color-tertiary-tint: #7e57ff;
+
+  /** success **/
+  --ion-color-success: #10dc60;
+  --ion-color-success-rgb: 16, 220, 96;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade: #0ec254;
+  --ion-color-success-tint: #28e070;
+
+  /** warning **/
+  --ion-color-warning: #ffce00;
+  --ion-color-warning-rgb: 255, 206, 0;
+  --ion-color-warning-contrast: #ffffff;
+  --ion-color-warning-contrast-rgb: 255, 255, 255;
+  --ion-color-warning-shade: #e0b500;
+  --ion-color-warning-tint: #ffd31a;
+
+  /** danger **/
+  --ion-color-danger: #f04141;
+  --ion-color-danger-rgb: 245, 61, 61;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #d33939;
+  --ion-color-danger-tint: #f25454;
+
+  /** dark **/
+  --ion-color-dark: #222428;
+  --ion-color-dark-rgb: 34, 34, 34;
+  --ion-color-dark-contrast: #ffffff;
+  --ion-color-dark-contrast-rgb: 255, 255, 255;
+  --ion-color-dark-shade: #1e2023;
+  --ion-color-dark-tint: #383a3e;
+
+  /** medium **/
+  --ion-color-medium: #989aa2;
+  --ion-color-medium-rgb: 152, 154, 162;
+  --ion-color-medium-contrast: #ffffff;
+  --ion-color-medium-contrast-rgb: 255, 255, 255;
+  --ion-color-medium-shade: #86888f;
+  --ion-color-medium-tint: #a2a4ab;
+
+  /** light **/
+  --ion-color-light: #f4f5f8;
+  --ion-color-light-rgb: 244, 244, 244;
+  --ion-color-light-contrast: #000000;
+  --ion-color-light-contrast-rgb: 0, 0, 0;
+  --ion-color-light-shade: #d7d8da;
+  --ion-color-light-tint: #f5f6f9;
+
+}
+.smallLogo{
+  height: 100px;
+}
+.center{
+  text-align: center;
+}
+.buridewe{
+  height: 100%;
+  width: 100%;
+  background-color: #f3f3f3;
+}
+.latarbg{
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  height: 180px;
+  background-image: url("../assets/bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.kotak{
+  box-shadow: 2px 2px 2px 2px #bebebe;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  background-color:rgba(248, 248, 248, 0.9);
+  width: auto;
+  height: auto;
+}
+.kotakSaldo{
+  box-shadow: 2px 2px 2px 2px #bebebe;
+  background-color:rgba(248, 248, 248,0.9);
+  margin-left: 5px;
+  margin-right:5px;
+  border-radius: 10px;
+  height: auto;
+  width: auto;
+  padding: 1px;
+}
+.container{
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+#foto, #nama{
+  display: inline-block;
+  vertical-align: middle;
+}
+#foto {
+  width: 25%;
+}
+#nama {
+  padding-left: 20px;
+  width: 75%;
+}
+#rcorners1 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+#txtSaldo, #jmlSaldo{
+  display: inline-block;
+  padding-left: 20px;
+}
+#txtSaldo {
+  width: 65%;
+}
+#jmlSaldo {
+  width: 35%;
+}
+.kotakMenu1{
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px #bebebe;
+  background-color:rgba(248, 248, 248,0.9);
+  margin-left: 5px;
+  margin-right:5px;
+  margin-top: 30px;
+  height: 270px;
+  width: 47%;
+  padding-top: 40px;
+}
+.kotakMenu2{
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px #bebebe;
+  background-color:rgba(248, 248, 248,0.9);
+  margin-left: 5px;
+  margin-right:5px;
+  margin-top: 30px;
+  height: 270px;
+  width: 47%;
+  padding-top: 40px;
+}
+.kotakMenu3{
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px #bebebe;
+  background-color:rgba(248, 248, 248,0.9);
+  margin-left: 5px;
+  margin-right:5px;
+  margin-top: 30px;
+  height: 270px;
+  width: 47%;
+  padding: 5px;
+  padding-top: 40px;
+}
+.kotakMenu4{
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px #bebebe;
+  background-color:rgba(248, 248, 248,0.9);
+  margin-left: 5px;
+  margin-right:5px;
+  margin-top: 30px;
+  height: 270px;
+  width: 47%;
+  padding-top: 40px;
+}
+.kotakMenu1, .kotakMenu2{
+  display: inline-block;
+  margin-top: 50px;
+}
+.kotakMenu3, .kotakMenu4{
+  display: inline-block;
+  margin-top: 10px;
+}
+#text1{
+  text-align: center;
+}
+.latarlogin{
+  width: 100%;
+  height:100%;
+  background-image: url("../assets/hijau.jpg");
+  background-size: cover;
+}
+.kotakUsername{
+  box-shadow: 2px 2px 2px 2px #bebebe;
+  background-color:rgba(248, 248, 248, 0.9);
+  margin-left: 10px;
+  margin-right:10px;
+  border-radius: 8px;
+  height: auto;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.latarlogin2{
+  height: 100%;
+  width: 100%;
+  background-image: url("../assets/bulan.jpg");
+}
+.latarform{
+  margin-inline: 10%;
+  padding-top: 20%;
+ padding-left: 10%;
+  width: 90%;
+  height: auto;
+  color: rgba(114, 235, 120, 0.9);
+}
