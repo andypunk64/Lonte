@@ -1,0 +1,33 @@
+<ion-content>
+    <div class="latarlogin2">
+      <br>
+      <br>
+      <br>
+      <p align ="center"><img src="assets/icon/logo1.png" class="smallLogo"/></p>
+        <h1 id="text1">Sign In</h1>
+        
+      <ion-card>
+        <ion-item class="ion-padding"> 
+          <ion-label position="stacked">Username
+          </ion-label>
+          <hr>
+          <div class="kotakUsername">
+            <ion-input type="text" [(ngModel)]="user.email"></ion-input>
+          </div>
+            <ion-label
+              position="stacked">Password
+            </ion-label>
+            <hr>
+          <div class="kotakUsername">
+            <ion-input type="password" [(ngModel)]="user.password"></ion-input>
+          </div>
+          <br>
+        </ion-item>
+      </ion-card>
+        <ion-button expand="block" share="round" color="success" size="large" (click)="onLogin()">Login</ion-button>
+        <ion-button expand="block" share="round" color="success" outline size="large" (click)="onRegister()">Register</ion-button>
+  </div>
+</ion-content>
+  
+
+
