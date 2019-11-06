@@ -3,29 +3,29 @@
     <br>
     <br>
     <br>
-      <p align ="center"><img src="assets/icon/logo1.png" class="smallLogo"/></p>
+      <img align ="center"><img src="assets/icon/logo1.png" class="smallLogo"/></img>
       <h1 id="text1">Sign In</h1>
       
     <ion-card>
-    <ion-item class="ion-padding"> 
-      <ion-label
-        position="stacked">Username
-      </ion-label>
-      <hr>
-    <div class="kotakUsername">
-      <ion-input type="text" [(ngModel)]="user.email"></ion-input>
-    </div>
-      <ion-label
-        position="stacked">Password
-      </ion-label>
-      <hr>
-      <div class="kotakUsername">
-      <ion-input type="password" [(ngModel)]="user.password"></ion-input>
-    </div>
-    <br>
-    <ion-button expand="block" share="round" color="success" size="small" (click)="onLogin()">Login</ion-button>
-    <ion-button expand="block" share="round" color="success" outline size="small" (click)="onRegister()">Register</ion-button>
-  </ion-item>
-</ion-card>
-</div>
+		<ion-item class="ion-padding"> 
+		  <ion-label
+			position="stacked">Username
+		  </ion-label>
+		  <hr>
+			<div class="kotakUsername">
+			  <ion-input type="text" [(ngModel)]="user.email"></ion-input>
+			</div>
+			  <ion-label
+				position="stacked">Password
+			  </ion-label>
+			  <hr>
+			<div class="kotakUsername">
+			  <ion-input type="password" [(ngModel)]="user.password"></ion-input>
+			</div>
+			<br>
+			<ion-button expand="block" share="round" color="success" size="small" (click)="onLogin()">Login</ion-button>
+			<ion-button expand="block" share="round" color="success" outline size="small" (click)="onRegister()">Register</ion-button>
+		</ion-item>
+	</ion-card>
+  </div>
 </ion-content>
